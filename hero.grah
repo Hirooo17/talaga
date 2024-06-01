@@ -1,0 +1,6 @@
+grah numero x = 5 + 10
+grah numero y = x * 2
+grah numero sum = x + y
+grah string message = "The value of sum is "
+print(message)
+print(sum)

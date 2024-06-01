@@ -1,0 +1,28 @@
+# Syntax for declaring a numero variable without whitespace and lowercase only
+grahnumero<var>=<expr>.
+
+# Syntax for declaring a string variable without whitespace and lowercase only
+grahstring<var>="<str>".
+
+# Syntax for displaying a variable without whitespace and lowercase only
+display-(<var>).
+
+# Keywords
+keyword grahnumero
+keyword grahstring
+keyword display
+
+# Operators
+operator +
+operator -
+operator *
+operator /
+
+# Error messages
+error_missing_var_name Invalid variable declaration: missing or invalid variable name.
+error_invalid_expr Invalid expression in variable declaration.
+error_invalid_str String not properly enclosed in quotes.
+error_invalid_display Invalid display statement.
+error_undeclared_var Variable <var> is undeclared.
+error_invalid_syntax Invalid statement.
+error_invalid_var_name Invalid variable name: cannot use keywords or contain uppercase letters or spaces.
